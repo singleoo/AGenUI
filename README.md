@@ -21,15 +21,15 @@ pod 'AGenUI'
 // settings.gradle
 allprojects {
     repositories {
-        google()
         mavenCentral()
+        google()
     }
 }
 
 // app/build.gradle
 dependencies {
     // AGenUI SDK
-    implementation 'com.amap.agenui:agenui-sdk:1.0.1'
+    implementation 'com.amap.genui:agenui-sdk:0.9.8'
 }
 ```
 
